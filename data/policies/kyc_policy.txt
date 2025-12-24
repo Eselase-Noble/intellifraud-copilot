@@ -1,0 +1,3 @@
+KYC Policy (Sample)
+- Analysts should verify identity signals when unusual patterns appear.
+- Escalate if activity is inconsistent with known customer profile.

@@ -1,0 +1,16 @@
+# AML / Fraud Monitoring Policy (Sample)
+
+## High-risk transaction indicators
+- High-amount transactions above local thresholds (e.g., > 5000 EUR) require enhanced review.
+- Cross-border activity inconsistent with customer history is considered elevated risk.
+- Rapid successive authorizations (velocity) in a short time window can indicate card testing or account compromise.
+- Transactions involving **cash-like** or **crypto exchange** merchants require additional scrutiny and may trigger alerts.
+
+## Common fraud typologies
+- Card testing: many small authorizations across multiple merchants, often with declines.
+- Account takeover: anomalous location/device + sudden e-commerce spike.
+- Bust-out: ramping credit utilization followed by large purchases or cash-like merchant activity.
+
+## Analyst guidance
+- Prefer corroborating evidence (merchant category, location anomalies, historical patterns) before escalation.
+- Document decision rationale with references to the policy indicators above.
