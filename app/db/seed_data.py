@@ -8,6 +8,11 @@ from app.utils.config import settings
 from app.utils.logger import get_logger
 from app.rag.retriever import PolicyIndex
 
+
+#author: Noble Eselase Vulley
+#version: 1.0.0
+
+
 logger = get_logger(__name__)
 
 DATA_DIR = Path("./data")

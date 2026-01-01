@@ -4,6 +4,11 @@ from app.agents.planner import PlannerAgent
 from app.rag.retriever import PolicyIndex
 from app.utils.logger import get_logger
 
+
+#author: Noble Eselase Vulley
+#version: 1.0.0
+
+
 router = APIRouter()
 logger = get_logger(__name__)
 

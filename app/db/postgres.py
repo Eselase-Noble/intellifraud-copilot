@@ -4,6 +4,11 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncEngine, AsyncSessio
 from sqlalchemy.orm import sessionmaker
 from app.utils.config import settings
 
+
+#author: Noble Eselase Vulley
+#version: 1.0.0
+
+
 def make_engine() -> AsyncEngine:
     # We use SQLite for local MVP but keep file name as postgres.py to match blueprint.
     db_path = settings.sqlite_path

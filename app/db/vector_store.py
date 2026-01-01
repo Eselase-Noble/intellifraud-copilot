@@ -1,5 +1,10 @@
 from app.rag.retriever import PolicyIndex
 
+
+#author: Noble Eselase Vulley
+#version: 1.0.0
+
+
 _policy_index = None
 
 def get_policy_index() -> PolicyIndex:
